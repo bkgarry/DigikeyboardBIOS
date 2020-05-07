@@ -1,0 +1,7 @@
+These two files (DigiKeyboard.h and usbconfig.h) replace the original digikeyboard files in the following windows directory.
+%localappdata%\Arduino15\packages\digistump\hardware\avr\1.6.7\libraries\DigisparkKeyboard
+(please note that the path may change for different versions of the digistump files and Arduino IDE)
+
+%localappdata% is the environmental variable to take you to your user's local appdata so the path will work.
+
+Once these files have been replaced, recompile your existing code to your digispark and you will be able to use the same script to run your keyboard commands within a system BIOS)
